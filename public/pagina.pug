@@ -1,0 +1,11 @@
+html
+    head
+        title Mi pagina
+        link(rel='stylesheet', href='/styles/pug.css')
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+    body(id="body_holi")
+        h1 Hpta Alexis lo logre
+
+        form(action="/saludar", method="post")
+            input#saludo(type="text", name="saludo")
+            input(type="submit", value="enviar")
